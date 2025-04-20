@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/mnt.jpg'); /* Use correct image path */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+input {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #006F8E;  /* Sea blue color */
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004f66;  /* Darker sea blue */
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+
+
+.footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #00FFFF; /* Sea blue */
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-top: 1px solid #00FFFF;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}

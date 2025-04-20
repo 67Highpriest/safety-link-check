@@ -1,0 +1,21 @@
+{
+  "name": "Priest Link Checker",
+  "short_name": "LinkChecker",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#006F8E",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "images/icon-195.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icon-517.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
